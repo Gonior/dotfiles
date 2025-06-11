@@ -15,7 +15,7 @@ PKGS=(
   nwg-displays
   blueman
   networkmanager
-  rofi
+  rofi-wayland
   rofi-calc
   waybar
   kitty
@@ -48,9 +48,12 @@ mkdir -p ~/.config
 ln -sf ~/dotfiles/.config/hypr ~/.config/hypr
 ln -sf ~/dotfiles/.config/waybar ~/.config/waybar
 ln -sf ~/dotfiles/.config/kitty ~/.config/kitty
+ln -sf ~/dotfiles/.config/fastfetch ~/.config/fastfetch
+ln -sf ~/dotfiles/.config/backgrounds ~/.config/backgrounds
+ln -sf ~/dotfiles/.config/goperlay ~/.config/goverlay
+ln -sf ~/dotfiles/.config/rofi ~/.config/rofi
 
 # Symlink shell config
-ln -sf ~/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/.bashrc ~/.bashrc
 
 echo "[✓] Dotfiles setup complete!"

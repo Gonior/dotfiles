@@ -1,7 +1,7 @@
 @import "macchiato.css";
 
 * {
-  font-family: "CaskaydiaCove Nerd Font,CaskaydiaCove NF,CaskaydiaCove NF SemiBold", "JetBrainsMono Nerd Font", "Noto Sans", "Noto Serif Tibetan", "Tibetan Machine Uni",'Jomolhari', 'Unifont', 'Symbola', sans-serif;	
+  font-family: "CaskaydiaCove Nerd Font,CaskaydiaCove NF,CaskaydiaCove NF SemiBold", "JetBrainsMono Nerd Font", "Noto Sans", "Noto Serif Tibetan", "Tibetan Machine Uni",'Jomolhari', 'Unifont', 'Symbola', sans-serif;
   font-size: 14px;
   min-height: 0;
 }
