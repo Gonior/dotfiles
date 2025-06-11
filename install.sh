@@ -32,7 +32,6 @@ PKGS=(
   xdg-portal-desktop-hyprland
   xdg-portal-desktop-hyprland
   polkit
-  cliphist
   wl-clipboard
   htop
 )
