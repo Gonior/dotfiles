@@ -1,0 +1,101 @@
+@import "macchiato.css";
+
+* {
+  font-family: "CaskaydiaCove Nerd Font,CaskaydiaCove NF,CaskaydiaCove NF SemiBold", "JetBrainsMono Nerd Font", "Noto Sans", "Noto Serif Tibetan", "Tibetan Machine Uni",'Jomolhari', 'Unifont', 'Symbola', sans-serif;	
+  font-size: 14px;
+  min-height: 0;
+}
+
+#waybar {
+  background: transparent;
+  color: @text;
+}
+#window {
+  border-radius : 1rem;
+}
+#workspaces {
+  border-radius: 1rem;
+  margin: 2px;
+  background-color: @surface0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#workspaces button {
+  color: @lavender;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+#workspaces button.active {
+  color: @sky;
+  border-radius: 1rem;
+}
+
+#workspaces button:hover {
+  color: @sapphire;
+  border-radius: 1rem;
+}
+
+#custom-music,
+#tray,
+#network,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#custom-lock,
+#custom-cliphist,
+#bluetooth,
+#custom-idle-inhibitor,
+#custom-notification,
+#custom-power {
+  background-color: @surface0;
+  padding: 0.5rem 1rem;
+  margin: 2px 0;
+}
+
+#network {
+  color: @maroon;
+  border-radius: 0px 1rem 1rem 0px;
+  margin-right: 1rem;
+}
+
+#custom-cliphist {
+  color: @mauve;
+  border-radius: 1rem 0px 0px 1rem;
+}
+
+#custom-notification {
+  color : @mauve;
+}
+
+#custom-idle-inhibitor {
+  color : @mauve;
+}
+
+#bluetooth {
+  color: @sapphire;
+}
+
+#clock {
+  color: @mauve;
+  font-weight:bold;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+#pulseaudio {
+  color: @teal;
+  border-radius: 1rem 0px 0px 1rem;
+}
+
+#custom-power {
+    margin-right: 1rem;
+    border-radius: 0px 1rem 1rem 0px;
+    color: @red;
+}
+
+#tray {
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
